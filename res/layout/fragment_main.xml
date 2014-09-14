@@ -25,6 +25,7 @@
         android:minWidth="200dp"
         android:onClick="sendMessage"
         android:text="@string/button1" />
+    
 
     <TextView
         android:id="@+id/information_feedback"
@@ -35,5 +36,15 @@
         android:layout_marginTop="42dp"
         android:text="@string/noclick"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/PieGraph"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/information_feedback"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:onClick="pieGraphHandler"
+        android:text="Pie Graph" />
 
 </RelativeLayout>
